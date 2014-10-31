@@ -16,6 +16,9 @@
 
   if age <= 1
     puts "baby"
+  # in the elsif statements that come after this, 
+  # do you need both conditionals? Will the code every get you into
+  # a branch where the lower bound is exercised?
   elsif age <= 10 && age > 1
     puts 'tween'
   elsif age <= 12 && age > 10
